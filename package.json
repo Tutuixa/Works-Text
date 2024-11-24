@@ -15,7 +15,7 @@
     "app:dir": "electron-builder --dir",
     "app:dist": "electron-builder",
     "dist:linux": "electron-builder --linux",
-    "dist:win": "electron-builder"
+    "dist:win": "electron-builder --win"
   },
   "build": {
     "mac": {
@@ -28,7 +28,7 @@
       "category": "utilities"
     },
     "win": {
-      "target": "msi"
+      "target": "exe"
     },
     "asarUnpack":[
         "node_modules/ffmpeg-static/bin/${os}/${arch}/ffmpeg",
