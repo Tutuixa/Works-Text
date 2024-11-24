@@ -14,7 +14,8 @@
     "start": "electron .",
     "app:dir": "electron-builder --dir",
     "app:dist": "electron-builder",
-    "dist:linux": "electron-builder --linux"
+    "dist:linux": "electron-builder --linux",
+    "dist:win": "electron-builder"
   },
   "build": {
     "mac": {
@@ -25,6 +26,13 @@
         "deb"
       ],
       "category": "utilities"
+    },
+    "win": {
+      "target": "msi"
     }
+  },
+  "dependencies": {
+    "ffmpeg-static": "^5.2.0",
+    "ffprobe-static": "^3.1.0"
   }
 }
