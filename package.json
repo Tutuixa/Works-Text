@@ -25,6 +25,12 @@
         "deb"
       ],
       "category": "utilities"
+    },
+    "windows": {
+      "target": [
+        "msi"
+      ],
+      "category": "utilities"
     }
   }
 }
