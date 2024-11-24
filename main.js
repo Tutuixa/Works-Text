@@ -1,0 +1,13 @@
+const { app, BrowserWindow } = require('electron');
+
+let mainWindow = null;
+async function createWindow() {
+	mainWindow = new BrowserWindow({
+		width: 1000,
+		height: 800,
+	});
+
+	await mainWindow.loadFile('./src/pages/notes/index.html');
+}
+
+app.whenReady().then(createWindow);
