@@ -13,10 +13,14 @@
   "scripts": {
     "start": "electron .",
     "app:dir": "electron-builder --dir",
-    "app:dist": "electron-builder"
+    "app:dist": "electron-builder",
+    "dist:linux": "electron-builder --linux"
   },
   "build": {
-    "mac": {
+    "linux": {
+      "target": [
+        "deb"
+      ],
       "category": "utilities"
     }
   }
