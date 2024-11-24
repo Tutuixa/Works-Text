@@ -13,7 +13,7 @@
   "scripts": {
     "start": "electron .",
     "app:dir": "electron-builder --dir",
-    "app:dist": "electron-builder",
+    "dist:mac": "electron-builder --mac",
     "dist:linux": "electron-builder --linux",
     "dist:win": "electron-builder --win"
   },
