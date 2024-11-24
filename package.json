@@ -29,10 +29,11 @@
     },
     "win": {
       "target": "msi"
-    }
-  },
-  "dependencies": {
-    "ffmpeg-static": "^5.2.0",
-    "ffprobe-static": "^3.1.0"
+    },
+    "asarUnpack":[
+        "node_modules/ffmpeg-static/bin/${os}/${arch}/ffmpeg",
+        "node_modules/ffmpeg-static/index.js",
+        "node_modules/ffmpeg-static/package.json"
+        ]
   }
 }
