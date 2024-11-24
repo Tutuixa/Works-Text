@@ -17,6 +17,9 @@
     "dist:linux": "electron-builder --linux"
   },
   "build": {
+    "mac": {
+      "category": "utilities"
+    },
     "linux": {
       "target": [
         "deb"
