@@ -28,7 +28,9 @@
       "category": "utilities"
     },
     "win": {
-      "target": "exe"
+      "target": [
+        "msi"
+      ]
     },
     "asarUnpack":[
         "node_modules/ffmpeg-static/bin/${os}/${arch}/ffmpeg",
