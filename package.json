@@ -14,7 +14,8 @@
     "start": "electron .",
     "app:dir": "electron-builder --dir",
     "app:dist": "electron-builder",
-    "dist:linux": "electron-builder --linux"
+    "dist:linux": "electron-builder --linux",
+    "dist:windows": "electron-builder --windows"
   },
   "build": {
     "mac": {
