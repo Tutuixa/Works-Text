@@ -1,5 +1,11 @@
 {
 	"$schema": "https://biomejs.dev/schemas/1.9.4/schema.json",
+	"javascript": {
+		"formatter": {
+			"quoteStyle":"single",
+			"trailingCommas": "es5"
+		}
+	},
 	"vcs": {
 		"enabled": false,
 		"clientKind": "git",
@@ -20,12 +26,6 @@
 		"enabled": true,
 		"rules": {
 			"recommended": true
-		}
-	},
-	"javascript": {
-		"formatter": {
-			"quoteStyle":"single",
-			"trailingCommas": "es5"
 		}
 	}
 }
